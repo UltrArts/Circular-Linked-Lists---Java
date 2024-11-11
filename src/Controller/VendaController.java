@@ -7,7 +7,7 @@ import java.io.*;
 public class VendaController {
 
     private ProdutoListaCircularLigada<Venda> listaVendas;
-    private static final String FILE_NAME = "vendas.dat";
+    private static final String FILE_NAME = "files/vendas.dat";
 
     public VendaController() {
         listaVendas = new ProdutoListaCircularLigada<>();

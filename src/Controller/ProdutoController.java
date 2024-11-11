@@ -8,7 +8,7 @@ import view.MenuObserver;
 public class ProdutoController {
     private ProdutoListaCircularLigada<Item> items;
     
-    private static final String FILE_NAME = "items.dat";
+    private static final String FILE_NAME = "files/items.dat";
     private MenuObserver observer;
 
     public ProdutoController() {
